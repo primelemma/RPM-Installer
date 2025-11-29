@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=RPM Installer
+Comment=Install local RPM files
+Exec=/usr/bin/rpm-installer %f
+Icon=system-software-install
+Terminal=false
+Type=Application
+Categories=System;Settings;PackageManager;
+MimeType=application/x-rpm;application/x-redhat-package-manager;

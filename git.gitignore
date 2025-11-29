@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.rpm
+rpmbuild/
+/tmp/
+build_rpm.sh
