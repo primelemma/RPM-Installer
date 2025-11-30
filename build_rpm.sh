@@ -1,5 +1,5 @@
 #!/bin/bash
-VERSION="0.4"   # <--- Updated to match Spec
+VERSION="0.5"   # <--- Updated to match Spec
 NAME="rpm-installer"
 SRC_DIR="$HOME/rpmbuild/SOURCES"
 TEMP_DIR="/tmp/$NAME-$VERSION"

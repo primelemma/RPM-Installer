@@ -1,5 +1,5 @@
 Name:           rpm-installer
-Version:        0.4
+Version:        0.5
 Release:        1%{?dist}
 Summary:        GUI to install local RPMs and manage packages
 License:        MIT
@@ -16,7 +16,7 @@ Requires:       rpm
 
 %description
 A lightweight Qt6-based tool to install local RPM packages on Fedora.
-Version 0.4 includes a search feature to find, manage, and uninstall
+Version 0.5 includes a search feature to find, manage, and uninstall
 existing system packages using a fuzzy search logic.
 
 %prep
@@ -33,10 +33,10 @@ install -m 644 rpm-installer.desktop %{buildroot}/%{_datadir}/applications/rpm-i
 %{_datadir}/applications/rpm-installer.desktop
 
 %changelog
-* Sat Nov 29 2025 Developer <dev@example.com> - 0.4-1
+* Sat Nov 30 2025 - 0.5-1
 - Added Search bar for installed packages
 - Added Fuzzy search (partial matching)
 - Added Uninstall functionality
 
-* Sat Nov 29 2025 Developer <dev@example.com> - 0.1-1
+* Sat Nov 29 2025 - 0.1-1
 - Initial release
